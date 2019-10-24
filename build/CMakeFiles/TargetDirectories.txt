@@ -1,0 +1,5 @@
+/home/kenneth/Workspace/share-memory/build/CMakeFiles/edit_cache.dir
+/home/kenneth/Workspace/share-memory/build/CMakeFiles/CShareMemory.dir
+/home/kenneth/Workspace/share-memory/build/CMakeFiles/rebuild_cache.dir
+/home/kenneth/Workspace/share-memory/build/CMakeFiles/main_1.dir
+/home/kenneth/Workspace/share-memory/build/CMakeFiles/main_2.dir

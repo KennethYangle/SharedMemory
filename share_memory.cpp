@@ -66,7 +66,7 @@ void *CShareMemory::CreateShareMemory(const char *name, u32 size)
     char filename[32];
 
     snprintf(filename, 32, "/tmp/.%s", name);
-    if ((fd = open(filename, O_RDWR | O_CREAT | O_EXCL)) > 0)
+    if ((fd = open(filename, O_RDWR | O_CREAT | O_EXCL, 0777)) > 0)
     {
         close(fd);
     }
