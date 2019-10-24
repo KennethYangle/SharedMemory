@@ -7,3 +7,7 @@ compile and run
     g++ share_memory.cpp main_2.cpp -lpthread -o main_2
     sudo ./main_1
     sudo ./main_2
+or use cmake
+
+    cd build
+    cmake .. && make

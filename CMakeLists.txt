@@ -2,7 +2,7 @@ cmake_minimum_required( VERSION 2.8 )
 project( SharedMemory )
 
 set( CMAKE_BUILD_TYPE Release )
-set( CMAKE_CXX_FLAGS "-std=c++11 -pthread -O" )         # 添加 C++ 11 标准支持
+set( CMAKE_CXX_FLAGS "-std=c++11 -pthread -O3" )         # 添加 C++ 11 标准支持
 
 include_directories( ./include )
 
